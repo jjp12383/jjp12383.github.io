@@ -1,0 +1,24 @@
+{
+    "name": "Olivia Dunham",
+    "cas": "4689000AH122",
+    "notifications": 3,
+    "programSelections": 6,
+    "upcomingDeadlines": 4,
+    "readyToBePaid": 2,
+    "personalInformation": {
+        "total": 6,
+        "finished": 6
+    },
+    "academicHistory": {
+        "total": 4,
+        "finished": 1
+    },
+    "programMaterials": {
+        "total": 4,
+        "finished": 3
+    },
+    "supportingInfo": {
+        "total": 7,
+        "finished": 5
+    }
+}
