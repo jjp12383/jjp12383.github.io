@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="offerings-title">Offerings</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" data-ng-repeat="coffee in offerings">
+        <div class="coffee-tile">
+            <div class="coffee-source">{{coffee.source}}</div>
+            <div class="coffee-type">{{coffee.type}}</div>
+            <div class="coffee-description">{{coffee.description}}</div>
+        </div>
+    </div>
+</div>

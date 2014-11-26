@@ -1,0 +1,202 @@
+/*Globals*/
+
+@font-face {
+    font-family: copperplate;
+    src: url(../fonts/Sans-Copperplate-Gothic.ttf);
+}
+
+body {
+    background: url('../images/wood_planks.jpg');
+}
+
+.backdrop {
+    padding: 0;
+}
+
+/*Navbar*/
+
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 0;
+        border-bottom: 1px solid #666;
+        padding: 0 20px;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-static-top {
+    border: 0;
+}
+
+.navbar-brand {
+    padding-left: 0;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+}
+
+.navbar-nav > li > a {
+    font-size: 20px;
+    padding: 17px 25px 0 25px;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav > li > a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+    }
+
+    .navbar-nav > li:first-child > a {
+        padding-top: 0;
+    }
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    font-family: copperplate;
+    color: #382a21;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #5f4b40
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+    color: #5f4b40
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 13px 1px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    margin: 0;
+    border-radius: 0;
+}
+
+/*Content*/
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+    .content {
+        -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.4);
+        box-shadow: 0 0 0 0 rgba(0,0,0,0.4);
+    }
+}
+
+.content-row {
+    margin-bottom: 40px;
+}
+
+.content p {
+    font-family: copperplate;
+    font-size: 20px;
+}
+
+.content-image img {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .content-image img {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-image img {
+        width: 100%;
+    }
+}
+
+/*Logo*/
+
+.r_left {
+    fill: #5f4b40;
+    fill-opacity: 1
+}
+
+svg.r_right {
+    fill: #5f4b40;
+    fill-opacity: 0.5
+}
+
+.logo-center img {
+    width: 100%;
+}
+
+/*Offerings*/
+
+.offerings-title, .contact-title {
+    text-align: center;
+    font-family: copperplate, sans;
+    padding-bottom: 10px;
+    color: #5f4b40;
+    border-bottom: 1px solid #5f4b40;
+    width: 75%;
+    margin: 0 auto 25px auto;
+    display: block;
+}
+
+.coffee-tile {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.coffee-source {
+    font-family: copperplate, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.coffee-type {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: Times, serif
+}
+
+.contact-tile {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: copperplate;
+}
+
+.contact-tile a {
+    color: #5f4b40;
+}
